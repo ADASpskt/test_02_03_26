@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <title>Kostlivec – šermíř | Bestiář</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Bestiář</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.sps.cz">SPŠ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/tvoje-repo">GitHub</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- OBSAH -->
+<div class="container my-4">
+  <div class="row">
+
+    <!-- LEVÁ ČÁST – 1/3 (CAROUSEL) -->
+    <div class="col-md-4">
+      <div id="carouselSkeleton" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <img src="skeleton1.png" class="d-block w-100" alt="Kostlivec šermíř 1">
+          </div>
+
+          <div class="carousel-item">
+            <img src="skeleton2.png" class="d-block w-100" alt="Kostlivec šermíř 2">
+          </div>
+
+          <div class="carousel-item">
+            <img src="skeleton3.png" class="d-block w-100" alt="Kostlivec šermíř 3">
+          </div>
+
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselSkeleton" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselSkeleton" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- PRAVÁ ČÁST – 2/3 (DETAIL) -->
+    <div class="col-md-8">
+      <h2>Kostlivec – šermíř</h2>
+
+      <p>
+        Kostlivec – šermíř je nemrtvý bojovník, který si i po smrti zachoval
+        schopnosti z dob svého života. Ovládá boj s mečem a je extrémně nebezpečný
+        v boji zblízka. Nezná strach ani únavu a útočí bez milosti.
+      </p>
+
+      <h5>Možné vyzbrojení</h5>
+      <ul class="list-group mb-3">
+        <li class="list-group-item">Dýka</li>
+        <li class="list-group-item active">Meč</li>
+        <li class="list-group-item">Sekera</li>
+      </ul>
+
+      <a href="index.html" class="btn btn-secondary">Zpět na bestiář</a>
+    </div>
+
+  </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
